@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .fallingLabel {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    cursor: grab;
+    transition: top 1s ease-in-out;
+  }
+  
+  .falling-label:hover {
+    cursor: grabbing;
+  }
+  
