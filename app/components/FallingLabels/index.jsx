@@ -6,7 +6,6 @@ const FallingLabels = () => {
   const labels = Array.from({ length: 5 }, (_, index) => index + 1);
   const dragControls = useDragControls();
 
-  
   return (
     <div className={styles.container}>
       {labels.map((label, index) => (
