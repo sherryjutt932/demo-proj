@@ -25,8 +25,9 @@ export default function Home() {
     <main className="">
     <CircleCursor />
       <Nav/>
-      <Hero/>
-      <Fallbox/>
+      {/* <Hero/>
+      <Fallbox/> */}
+      <FallingLabels/>
     </main>
     </reactStrictMode>
   )
